@@ -4,3 +4,17 @@ h1 {
     font-size: 80px;
     transform: translateX(40px);
     }
+
+footer {
+        text-align: center;
+        }
+
+        a {
+        color: rgb(241, 216, 151);
+        text-decoration: none;
+        font-weight: bold;
+        }
+
+        a:hover {
+        color: #FB0041;
+        }
