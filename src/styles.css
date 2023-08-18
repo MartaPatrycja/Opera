@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-image: linear-gradient (0deg, 50%black, 50%red);
-    background-image: url('../images/gwen-king-m3th3rIQ9-w-unsplash.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
+    url('../images/gwen-king-m3th3rIQ9-w-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
