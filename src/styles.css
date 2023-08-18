@@ -1,20 +1,46 @@
-h1 {
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('../images/gwen-king-m3th3rIQ9-w-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color:#FB0041; 
     font-size: 80px;
-    transform: translateX(40px);
+    text-align: center;
+}
+
+header h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: rgb(241, 216, 151);
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
     }
 
+header h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #FBEAB0;
+    font-size: 20px;
+    text-align: center;
+}
+       
 footer {
-        text-align: center;
-        }
+    text-align: center;
+}
 
-        a {
-        color: rgb(241, 216, 151);
-        text-decoration: none;
-        font-weight: bold;
-        }
+a {
+    color: rgb(241, 216, 151);
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        a:hover {
-        color: #FB0041;
-        }
+a:hover {
+    color: #FB0041;
+}
