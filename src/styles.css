@@ -4,6 +4,7 @@
 }
 
 header {
+    background-image: linear-gradient (0deg, 50%black, 50%red);
     background-image: url('../images/gwen-king-m3th3rIQ9-w-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,10 +18,10 @@ header h1 {
     line-height: 1.5;
     text-align: center;
     margin: 0;
+    background-blend-mode: color-burn;
 }
 
 header h2 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: rgb(241, 216, 151);
     font-size: 20px;
     line-height: 1.5;
@@ -35,25 +36,27 @@ header h3 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: #FBEAB0;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin: 0;
-    padding-top: 260px;
+    padding-top: 230px;
 }
        
 footer {
     text-align: center;
 }
 
-a {
+header a {
     color: rgb(241, 216, 151);
     text-decoration: none;
     background-color: #FB0041;
     font-weight: bold;
+    line-height: 1.5;
+    padding: 8px 16px;
 }
 
-a:hover {
+header a:hover {
     color: black;
 }
