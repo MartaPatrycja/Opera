@@ -9,16 +9,19 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
+    margin: 0;
+    
 }
 
 header h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    color:#FB0041; 
+    color: #FBEAB0;; 
     font-size: 80px;
     line-height: 1.5;
     text-align: center;
     margin: 0;
     background-blend-mode: color-burn;
+    padding-top: 30px;
 }
 
 header h2 {
@@ -35,13 +38,14 @@ header h2 {
 header h3 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: #FBEAB0;
+    background-color: black;
     font-size: 20px;
     line-height: 1;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin: 0;
-    padding-top: 230px;
+    margin: 0px 560px;
+    margin-top: 240px;
 }
        
 footer {
@@ -59,4 +63,24 @@ header a {
 
 header a:hover {
     color: black;
+}
+
+@media (max-width: 900px)  {
+
+    header {
+        padding: 10px 0;
+    } 
+    
+    header h1 {
+        font-size: 60px;
+    }
+
+    header h2 {
+        font-size: 15px;
+    }
+    header h3 {
+        font-size: 15px;
+        margin: 0px 120px;
+        margin-top: 120px;
+    }
 }
