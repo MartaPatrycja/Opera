@@ -51,10 +51,6 @@ header h3 {
     margin: 0px 560px;
     margin-top: 270px;
 }
-       
-footer {
-    text-align: center;
-}
 
 header a {
     color: rgb(241, 216, 151);
@@ -68,8 +64,69 @@ header a {
 header a:hover {
     color: black;
 }
+       
+footer {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url('../images/alev-takil-ZeNciLLPQas-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100 0;
+}
 
-@media (max-width: 900px)  {
+footer section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #FBEAB0;
+    background-color: black;
+    font-size: 20px;
+    line-height: 1;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+footer a {
+    color: rgb(241, 216, 151);
+    font-size: small;
+    text-decoration: none;
+    background-color: #FB0041;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-align: left;
+    line-height: 2;
+    padding: 4px 8px;
+}
+
+footer p {
+    color:grey;
+    background-color: black;
+    text-align: left;
+    line-height: 2;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 960px)  {
 
     header {
         padding: 10px 0;
