@@ -117,6 +117,12 @@ main h3 {
     margin: 0;
     text-align: center;
 }
+main h4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #FB0041;
+    font-size: 25px;
+    margin: 0;
+}
 
 main p {
     color:lightgrey;
@@ -129,11 +135,15 @@ main img {
 }
 
 .cities {
-    color: rgb(241, 216, 151);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: black;
     background-color: #FB0041;
     font-size: 20px;
-    font-weight: bold;
-    line-height: 1.5;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
     padding: 8px 16px;
 }
        
