@@ -173,6 +173,10 @@ footer li {
 
 @media (max-width: 960px)  {
 
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
     header {
         padding: 10px 0;
     } 
@@ -192,5 +196,13 @@ footer li {
     header a {
         padding: 4px 8px;
         font-weight: bolder;
+    }
+
+    main p {
+    font-size: small;
+    }
+
+    main img {
+        display: none;
     }
 }
