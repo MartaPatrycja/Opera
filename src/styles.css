@@ -13,14 +13,25 @@ section {
     padding: 50px 0;
 }
 
+.grid {
+    display: grid;
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
     url('../images/gwen-king-m3th3rIQ9-w-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
-    margin: 0;
-    
+    margin: 0;    
 }
 
 header h1 {
@@ -100,7 +111,7 @@ main p {
 }
 
 main img {
-    max-width: 400px;
+    max-width: 460px;
     padding-right: 40px;
 }
        
@@ -111,11 +122,6 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100 0;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
 }
 
 footer h3 {
