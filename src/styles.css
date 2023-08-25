@@ -99,8 +99,8 @@ main h3 {
     font-style: italic;
     font-weight: bold;
     letter-spacing: 5px;
-    line-height: 2.5;
-    padding: 4px 8px;
+    line-height: 1;
+    padding: 6px 8px;
     margin: 0;
     text-align: center;
 }
@@ -172,6 +172,10 @@ footer li {
 }
 
 @media (max-width: 960px)  {
+
+    section {
+        max-width: 90%;
+    }
 
     .grid {
         grid-template-columns: 1fr;
