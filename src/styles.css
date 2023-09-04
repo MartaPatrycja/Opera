@@ -29,14 +29,14 @@ section {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
-
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
     url('../images/gwen-king-m3th3rIQ9-w-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
-    margin: 0;    
+    display: block;
+    margin: 0 auto;    
 }
 
 header h1 {
@@ -92,7 +92,7 @@ main h2 {
     font-size: 35px;
     line-height: 1.5;
     text-align: left;
-    margin: 0;
+    margin: 0 auto;
 }
 
 main h3 {
@@ -113,7 +113,7 @@ main h4 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color:rgb(241, 216, 151);
     font-size: 25px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 main p {
@@ -127,10 +127,16 @@ main img {
 }
 
 .card {
-    margin: 15px;
+    margin: 15px 15px;
 }
 
-main .cities {
+.card p {
+    color:lightgrey;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.cities {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: black;
     background-color: #FB0041;
@@ -143,7 +149,7 @@ main .cities {
     padding: 8px 16px;
 }
 
-main .theaters {
+.theaters {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: black;
     background-color: #FB0041;
@@ -156,7 +162,7 @@ main .theaters {
     padding: 8px 16px;
 }
 
-main .theaters:hover {
+.theaters:hover {
     color: #FBEAB0;
 }
 
@@ -164,7 +170,6 @@ iframe {
     display: flex;
     margin: 0 auto;
 }
-
        
 footer {
     text-align: center;
@@ -224,29 +229,21 @@ footer li {
 
 @media (max-width: 960px)  {
 
-    header {
-        display: block;
-        margin: 0  auto;    
-    }
-
     section {
-        max-width: 75%;
+        max-width: 85%;
     }
 
     .grid {
         grid-template-columns: 1fr;
     }
 
-    header {
-        padding: 10px 0;
-    } 
-    
     header h1 {
         font-size: 60px;
     }
 
     header h2 {
         font-size: 10px;
+        line-height: 11;
     }
 
     header h3 {
@@ -265,16 +262,12 @@ footer li {
         line-height: 1.5;
     }
 
-    main p {
-    font-size: small;
+    p {
+        font-size: small;
     }
 
     main img {
         display: none;
-    }
-
-    footer p {
-        font-size: small;
     }
    
 }
