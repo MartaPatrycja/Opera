@@ -29,14 +29,6 @@ section {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
-.padding-left {
-    padding-left: 40px;
-}
-
-.padding-right {
-    padding-right: 40px;
-}
-
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
@@ -114,7 +106,7 @@ main h3 {
     letter-spacing: 5px;
     line-height: 1;
     padding: 6px 8px;
-    margin: 0;
+    margin: 0px;
     text-align: center;
 }
 main h4 {
@@ -138,7 +130,7 @@ main img {
     margin: 15px;
 }
 
-.cities {
+main .cities {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: black;
     background-color: #FB0041;
@@ -150,6 +142,24 @@ main img {
     font-weight: 700;
     padding: 8px 16px;
 }
+
+main .theaters {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: black;
+    background-color: #FB0041;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    padding: 8px 16px;
+}
+
+main .theaters:hover {
+    color: #FBEAB0;
+}
+
 iframe {
     display: flex;
     margin: 0 auto;
@@ -220,7 +230,7 @@ footer li {
     }
 
     section {
-        max-width: 90%;
+        max-width: 75%;
     }
 
     .grid {
@@ -238,14 +248,21 @@ footer li {
     header h2 {
         font-size: 10px;
     }
+
     header h3 {
         font-size: 15px;
         margin: 0px 120px;
         margin-top: 120px;
+        line-height: 1.5;
     }
+
     header a {
         padding: 4px 8px;
         font-weight: bolder;
+    }
+    
+    main h3 {
+        line-height: 1.5;
     }
 
     main p {
@@ -259,4 +276,5 @@ footer li {
     footer p {
         font-size: small;
     }
+   
 }
