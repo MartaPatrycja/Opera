@@ -35,7 +35,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
-    display: block;
     margin: 0 auto;    
 }
 
@@ -91,8 +90,8 @@ main h2 {
     color:rgb(241, 216, 151);
     font-size: 35px;
     line-height: 1.5;
-    text-align: left;
-    margin: 0 auto;
+    text-align: center;
+    margin: 0 20px;
 }
 
 main h3 {
@@ -267,6 +266,10 @@ footer li {
     }
 
     main img {
+        display: none;
+    }
+
+   #gallery {
         display: none;
     }
    
